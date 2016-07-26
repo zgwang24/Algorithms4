@@ -20,7 +20,7 @@ public class Shell {
 		return a;
 	}
 	public static void main(String[] args){
-		int[] arr = {10, 54, 1, 89, 90, 2, 78, 32, 65};
+		int[] arr = {10, 54, 1, 0, 0, 89, 90, 2, 78, 32, 65};
 		int[] res = sort(arr);
 		for(int i = 0; i < res.length; i++){
 			System.out.print(res[i] + " ");
