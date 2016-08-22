@@ -3,7 +3,7 @@
  * @author zgwang
  *
  */
-package Test001;
+package Chapter1;
 class gcd{
 	public static void main(String[] args){
 		

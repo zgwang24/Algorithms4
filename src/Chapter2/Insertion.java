@@ -1,23 +1,22 @@
-package Test002;
+package Chapter2;
 
-public class Selection {
+public class Insertion {
 	public static int[] sort(int[] a){
 		int n = a.length;
-		for(int i = 0; i < n; i++){
-			for(int j = i + 1; j < n; j++){
-				if(a[j] < a[i]){
-					a[i] = (a[j] + a[i]) - (a[j] = a[i]);
+		for(int i = 1; i < n; i++){
+			for(int j = i; j > 0; j--){
+				if(a[j] < a[j - 1]){
+					a[j] = (a[j] + a[j - 1]) - (a[j - 1] = a[j]);
 				}
 			}
 		}
 		return a;
 	}
 	public static void main(String[] args){
-		int[] arr = {10, 89, 90, 2, 78, 32, 65};
+		int[] arr = {10, 89, 90, 2, 78, 32, 65, 10};
 		int[] res = sort(arr);
 		for(int i = 0; i < res.length; i++){
 			System.out.print(res[i] + " ");
 		}
-		
 	}
 }

@@ -1,4 +1,4 @@
-package Test001;
+package Chapter1;
 
 import java.util.Scanner;
 

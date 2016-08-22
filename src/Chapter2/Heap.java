@@ -1,4 +1,4 @@
-package Test002;
+package Chapter2;
 
 public class Heap {
 	public static void sort(int[] a){

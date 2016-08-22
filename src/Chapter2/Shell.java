@@ -1,4 +1,4 @@
-package Test002;
+package Chapter2;
 
 public class Shell {
 	public static int[] sort(int[] a){

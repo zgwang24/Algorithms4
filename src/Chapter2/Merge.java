@@ -1,4 +1,4 @@
-package Test002;
+package Chapter2;
 /**
  * ²¢Î´Àí½â
  * */

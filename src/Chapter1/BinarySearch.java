@@ -2,7 +2,7 @@
  * 二分查找（数组必须是有序的）
  * @author zgwang
  */
-package Test001;
+package Chapter1;
 
 public class BinarySearch {
 	public static int rank(int key, int[] a){
