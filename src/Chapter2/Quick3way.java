@@ -10,7 +10,7 @@ public class Quick3way {
 		}
 		int lt = lo;
 		int gt = hi;
-		int i = lt + 1;
+		int i = lo + 1;
 		int v= a[lo];
 		while(i <= gt){
 			if(a[i] < v){
