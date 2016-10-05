@@ -18,7 +18,7 @@ public class Count {
 		sc = new Scanner(System.in);
 		String s = sc.nextLine();
 		int N = s.length();
-		
+		// 将s转化为R进制的整数
 		int[] a = alpha.toIndices(s);
 		for(int i = 0; i < N; i++){
 			count[a[i]]++;

@@ -32,7 +32,7 @@ public class StringSort {
 		}
 	}
 	public static void main(String[] args){
-		String[] str = {"Anderson2", "Browm3", "Davies3", "Garcia4", "Harris1"};
+		String[] str = {"Anderson2", "Brown3", "Davies3", "Garcia4", "Harris1"};
 		countKeyIndex(str);
 		for(int i = 0; i < str.length; i ++){
 			System.err.println(str[i]);
